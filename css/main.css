@@ -4150,6 +4150,10 @@ article.blog-single .blog-content {
   padding-right: 10px;
 }
 
+.typewriter {
+  display: inline-block;
+}
+
 .typewriter h1 {
   text-transform: uppercase;
   color: #862121;
