@@ -178,6 +178,11 @@
                 items.push(item);
             });
 
+            // capture link click event and stop propagation
+            $('a.item-folio__project-link').on('click', function (e) {
+              e.stopPropagation();
+            });
+
             // bind click event
             $folioItems.each(function(i) {
 
